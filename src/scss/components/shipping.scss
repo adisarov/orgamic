@@ -1,0 +1,41 @@
+.sh {
+  transform: translateY(-50%);
+}
+.sh-list {
+  padding: 70px 15px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #ddd;
+  background-color: #fff;
+}
+
+.sh-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child):before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background-color: #ddd;
+    right: -17%;
+  }
+
+  svg {
+    margin-right: 20px;
+  }
+}
+.sh-box {
+}
+.sh-t1 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.sh-t2 {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 14px;
+  color: #666666;
+}

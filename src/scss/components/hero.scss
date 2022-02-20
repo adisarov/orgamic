@@ -1,0 +1,55 @@
+.hr {
+  background-color: rgba(118, 167, 19, 0.31);
+}
+
+.hr-inner {
+  padding: 100px 0 200px;
+  display: flex;
+}
+.hr-left {
+  max-width: 473px;
+  margin-right: auto;
+}
+.hr-t1 {
+  margin-bottom: 35px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #76a713;
+}
+.hr-t2 {
+  margin-bottom: 30px;
+  font-size: 80px;
+  text-transform: uppercase;
+  color: #000;
+}
+.hr-t3 {
+  content: "";
+  position: absolute;
+  top: 31%;
+  right: -17%;
+  font-size: 90px;
+  color: transparent; 
+  -webkit-text-stroke: 4px rgba(118, 167, 19, 0.2);
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  z-index: -1;
+}
+.hr-btn {
+  padding: 13px 38px;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #76a713;
+  border: 1px solid #76a713;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #76a713;
+    background-color: transparent;
+  }
+}
+
+.hr-right {
+  position: relative;
+}

@@ -117,11 +117,18 @@
 
 .login {
   margin-right: 10px;
-  padding: 10px 30px;
+  padding: 8px 30px;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
   background-color: #76a713;
+  border: 1px solid #76a713;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #76a713;
+    background-color: #fff;
+  }
 }
 
 .hb-btn {
