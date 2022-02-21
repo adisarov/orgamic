@@ -1,2 +1,17 @@
-const summ = require("./module/sum.js")
-console.log(3+2);
+const swiper = new Swiper('.swiper', {
+
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
+
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});

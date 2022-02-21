@@ -1,12 +1,18 @@
 .hr {
   background-color: rgba(118, 167, 19, 0.31);
+
+  & .container {
+    position: relative;
+  }
 }
 
 .hr-inner {
-  padding: 100px 0 200px;
+  padding: 100px 0;
   display: flex;
+  align-items: center;
 }
 .hr-left {
+  padding: 0 0 100px 0;
   max-width: 473px;
   margin-right: auto;
 }
@@ -28,13 +34,14 @@
   top: 31%;
   right: -17%;
   font-size: 90px;
-  color: transparent; 
+  color: transparent;
   -webkit-text-stroke: 4px rgba(118, 167, 19, 0.2);
   text-transform: uppercase;
   transform: rotate(-90deg);
   z-index: -1;
 }
 .hr-btn {
+  margin-left: 1px;
   padding: 13px 38px;
   font-family: Gilroy;
   font-weight: 700;
@@ -52,4 +59,48 @@
 
 .hr-right {
   position: relative;
+}
+
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  color: transparent;
+  border: 1px solid #76a713;
+  background-color: #76a713;
+  right: -30px;
+
+  &:after {
+    opacity: 0;
+    width: 0;
+  }
+
+  svg {
+    fill: #fff;
+  }
+}
+
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #76a713;
+  background-color: #76a713;
+  left: -30px;
+
+  &:after {
+    opacity: 0;
+    width: 0;
+  }
+
+  svg {
+    fill: #fff;
+  }
+}
+
+.swiper-button-disabled {
+  background-color: transparent;
+  opacity: 1 !important;
+
+  svg {
+    fill: #000;
+  }
 }
