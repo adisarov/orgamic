@@ -1,0 +1,37 @@
+.ct {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+}
+
+.ct-inner {
+}
+
+.ct-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.ct-item {
+  padding: 25px 5px 30px;
+  border: 1px solid #76a713;
+}
+.ct-img {
+  margin: 0 auto;
+  min-height: 150px;
+  object-fit: contain;
+}
+.ct-t1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.ct-t2 {
+  margin-bottom: 25px;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 16px;
+  color: #888888;
+}
+.btn {
+}

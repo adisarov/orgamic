@@ -1,10 +1,11 @@
 .ab {
+  padding-bottom: 100px;
 }
 .ab-inner {
-  
+  display: flex;
 }
 .ab-t1 {
-  padding: 10px 80px;
+  padding: 10px 65px;
   font-weight: 600;
   font-size: 30px;
   letter-spacing: 0.03em;
@@ -12,14 +13,18 @@
   border: 2px dashed rgba(118, 167, 19, 0.5);
 }
 .ab-t2 {
+  margin: 0;
+  margin-bottom: 40px;
 }
 .ab-t3 {
+  margin-bottom: 35px;
   font-family: Gilroy;
   font-weight: 500;
   font-size: 16px;
   color: #888888;
 }
 .ab-t4 {
+  margin-bottom: 5px;
   font-family: Gilroy;
   font-style: italic;
   font-weight: 500;
@@ -35,4 +40,16 @@
   font-weight: 500;
   font-size: 13px;
   color: #aaaaaa;
+}
+
+.ab-img1{
+  margin-right: 25px;
+}
+.ab-img2{}
+
+.ab-box1{
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
