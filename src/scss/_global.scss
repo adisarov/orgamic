@@ -63,3 +63,22 @@ body {
   text-transform: uppercase;
   color: #191d28;
 }
+
+.btn {
+ opacity: 0;
+  padding: 8px 17px;
+  font-family: Gilroy;
+  justify-self: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  background-color: #76a713;
+  border: 1px solid #76a713;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: transparent;
+    color: #76a713;
+  }
+}

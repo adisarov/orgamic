@@ -14,22 +14,34 @@
 }
 
 .ct-item {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-auto-flow: row;
+  grid-template: 1fr auto auto auto / 1fr;
   padding: 25px 5px 30px;
   border: 1px solid #76a713;
   transition: all 0.3s;
 
-  &:hover{
+  &:hover {
     background-color: #fff;
     border: 1px solid #ddd;
   }
 
-  &:hover .ct-t1{
-    color:#76a713
+  &:hover .ct-t1 {
+    color: #76a713;
+  }
+
+  &:hover .btn {
+    opacity: 1;
+  }
+
+  &:hover .ct-btn{
+    opacity: 0;
   }
 }
 .ct-img {
   margin: 0 auto;
-  min-height: 150px;
   object-fit: contain;
 }
 .ct-t1 {
@@ -44,5 +56,17 @@
   font-size: 16px;
   color: #888888;
 }
-.btn {
+
+.ct-btn{
+  position: absolute;
+  bottom: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #76a713;
+  justify-self: center;
+  transition: all 0.2s;
+  pointer-events: none;
 }

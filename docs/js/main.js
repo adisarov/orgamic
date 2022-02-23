@@ -1,1 +1,22 @@
-new Swiper(".swiper",{autoplay:{delay:3e3,disableOnInteraction:!1,pauseOnMouseEnter:!0},direction:"horizontal",loop:!1,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});
+/******/ (() => { // webpackBootstrap
+var __webpack_exports__ = {};
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
+var swiper = new Swiper('.swiper', {
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true
+  },
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
+/******/ })()
+;
