@@ -1,4 +1,6 @@
 .sh {
+  position: relative;
+  z-index: 2;
   transform: translateY(-50%);
 }
 .sh-list {

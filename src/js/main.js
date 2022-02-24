@@ -1,3 +1,5 @@
+var mixer = mixitup('.pr-list');
+
 const swiper = new Swiper('.swiper', {
 
   autoplay: {
