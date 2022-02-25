@@ -1,0 +1,55 @@
+.s1 {
+}
+
+.s1-inner {
+  display: flex;
+  text-align: right;
+}
+.s1-left {
+  position: relative;
+  display: flex;
+  width: 50%;
+  background-color: #76a713;
+}
+.s1-t1 {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.s1-t2 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.s1-btn-1,
+.s1-btn-2 {
+  padding: 8px 18px;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  background-color: #ff6600;
+}
+.s1-btn-2 {
+  background-color: #76a713;
+}
+.s1-right {
+  position: relative;
+  display: flex;
+  width: 50%;
+  background-color: #ff6600;
+}
+
+.s1-box {
+  position: absolute;
+  width: 50%;
+  right: 40px;
+  top: 45px;
+}
