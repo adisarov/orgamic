@@ -14,4 +14,33 @@
 @import "./components/featured";
 @import "./components/featured2";
 
+.s2 {
+}
+
+.hide {
+}
+.s2-list {
+ display: flex;
+ justify-content: space-between;
+  padding: 75px 45px;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.s2-item {
+  line-height: 0.7;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+.s2-t1 {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: left;
+}
+
 @import "./components/footer";
